@@ -1,35 +1,37 @@
-# OH-Dee Online Store Preview
+# Perfu-Scent Store Preview
 
-A mobile-friendly static store prototype based on the product categories and prices in the customer-supplied OH-Dee combo list.
+A mobile-friendly fragrance storefront prototype repurposed from the unused OH-Dee project.
 
 ## Included
-- Responsive storefront layout
-- Product category filters
-- Individual product cards and prices
-- Combo deals
-- Working in-browser shopping bag with quantity controls and subtotal
-- Checkout enquiry preview
-- Newsletter form placeholder
+- Perfu-Scent branding and responsive storefront
+- Product collections: Ladies 80ml, Unisex 80ml, Gents 80ml, Minies 40ml and Exclusives 100ml
+- Catalogue and prices transcribed from the customer-supplied screenshots
+- Product filters
+- Shopping bag with quantity controls and subtotal
+- Aramex and PAXI delivery information
+- Enquiry-style checkout preview (not live payment processing)
+
+## Catalogue captured
+- Ladies 80ml: Dezire Red, Bae, Dezire Blue — R150 each
+- Unisex 80ml: White Oud, Hamrah — R150 each
+- Gents 80ml: Wild, Warrior, Stallion — R150 each
+- Minies 40ml: Berry & Berry, S Candle, Sugar — R80 each
+- Exclusives 100ml: Nomad's Land, Crescendo, Galaxy — R250 each
 
 ## Preview locally
 Open `index.html` in a modern browser.
 
-## Publish to GitHub Pages
-1. Upload `index.html`, `style.css`, `app.js`, and the `assets` folder to the root of the `Luxolog/OH-Dee` repository.
-2. Commit the files to `main`.
-3. Open Settings → Pages.
-4. Set Source to `Deploy from a branch`, branch `main`, folder `/(root)`, then Save.
-5. After deployment, test the published URL and all mobile layouts.
+## GitHub Pages
+The repository can be published from Settings → Pages → Deploy from a branch → `main` → `/(root)`.
 
 ## Before production launch
-This is a front-end prototype, not a complete production commerce system. Do not take real payments or collect customer details through this demo. Confirm with the owner:
-- Current product images, logo files and final product descriptions
-- Contact number / WhatsApp number
-- Stock and variants
-- Delivery regions, fees, timelines and returns policy
-- Payment provider and secure server-side checkout
-- Privacy policy, terms and POPIA-compliant customer consent
-- Email/newsletter provider
-- Order management, stock tracking, analytics and backup plan
+This is a presentation prototype, not a production WooCommerce store. Do not collect real payment details or treat enquiry checkout as a completed order. Confirm:
+- Approved Perfu-Scent logo and product photographs
+- Product stock, descriptions and any fragrance notes
+- Owner's WhatsApp/contact details
+- Aramex and PAXI delivery fees, service areas and delivery terms
+- Domain and hosting configuration
+- WooCommerce installation and secure payment gateway
+- Privacy policy, terms, returns policy and POPIA-compliant customer consent
 
-`WHATSAPP_NUMBER` in `app.js` is intentionally blank until the owner confirms the correct number. Product images in this prototype are CSS-generated placeholders; replace them with approved original product photographs before production.
+Product images are currently CSS-styled placeholders; use the owner's approved product photographs before launch.
